@@ -1,11 +1,10 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
 import Countdown from "./components/Countdown";
 function App() {
   return (
     <div className="App">
-     <Countdown></Countdown>
+      <Countdown></Countdown>
     </div>
   );
 }
